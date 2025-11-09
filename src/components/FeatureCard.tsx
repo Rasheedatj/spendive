@@ -10,8 +10,8 @@ const FeatureCard = ({ feature }: { feature: Props }) => {
   return (
     <section className='border-[0.5px] border-[#D8D8D8] bg-[#FBFBFB] p-8 md:p-10 rounded-3xl flex flex-col'>
       <article>
-        <h3 className='text-black text-2xl md:text-[32px]'>{title}</h3>
-        <p className='text-[#3C3C3C] pt-2 font-light text-sm md:text-base'>
+        <h3 className='text-black text-2xl lg::text-[32px]'>{title}</h3>
+        <p className='text-[#3C3C3C] pt-2 font-light text-sm lg:text-base'>
           {details}
         </p>
       </article>

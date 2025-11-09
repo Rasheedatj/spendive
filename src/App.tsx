@@ -1,4 +1,5 @@
 import Benefits from './components/Benefits';
+import CTA from './components/CTA';
 import Features from './components/Features';
 import Headerr from './components/Headerr';
 import Hero from './components/Hero';
@@ -7,8 +8,7 @@ import Partners from './components/Partners';
 
 const App = () => {
   return (
-    <main>
-      {/* <section className='h-screen flex flex-col'> */}
+    <main className='max-w-8xl mx-auto'>
       <Headerr />
 
       <Hero />
@@ -16,7 +16,7 @@ const App = () => {
       <Mission />
       <Features />
       <Benefits />
-      {/* </section> */}
+      <CTA />
     </main>
   );
 };

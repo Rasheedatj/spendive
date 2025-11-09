@@ -38,16 +38,16 @@ const Benefits = () => {
   return (
     <section className='flex flex-col items-center'>
       <Badge icon={<PiLightning />}>BENEFITS</Badge>
-      <h1 className='text-3xl px-4 md:px-0 md:text-5xl text-center text-black leading-12 d:leading-16 md:w-1/2 my-6 md:my-10'>
+      <h1 className='text-3xl px-4 md:px-0 lg:text-5xl text-center text-black leading-12 md:leading-16 md:w-1/2 my-3 lg:my-6 md:my-10'>
         Why Spendive?
       </h1>
 
-      <section className='flex flex-col md:flex-row px-4 gap-12 md:gap-8 w-full mx-4 md:px-24 my-6 md:my-20'>
+      <section className='flex flex-col md:flex-row px-4 gap-12 md:gap-8 w-full mx-4 md:px-10 lg:px-24 my-6 lg:my-20'>
         <div className='w-full'>
           <img src='/benefits.svg' alt='why spendive' />
         </div>
         <div className='w-full flex flex-col justify-between'>
-          <div className='w-full space-y-10  mb-10 md:mb-0'>
+          <div className='w-full space-y-10 md:space-y-6 lg:space-y-10  mb-10 lg:mb-0'>
             {benefitsData.map((benefit) => (
               <BenefitItem key={benefit.id} benefit={benefit} />
             ))}

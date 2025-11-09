@@ -52,11 +52,11 @@ const Features = () => {
     <section className='py-20 flex flex-col items-center'>
       <Badge icon={<PiLightning />}>KEY FEATURES</Badge>
 
-      <h1 className='text-3xl px-4 md:px-0 md:text-5xl text-center text-black leading-12 md:leading-16 md:w-1/2 my-6 md:my-10'>
+      <h1 className='text-3xl px-4 md:px-0 lg:text-5xl text-center text-black leading-12 lg:leading-16 md:w-1/2 my-6 md:my-10'>
         Effortless Spend Management for Modern Businesses.
       </h1>
 
-      <section className='md:grid-cols-2 grid gap-4 md:gap-8 mx-4 md:mx-24 mt-10'>
+      <section className='md:grid-cols-2 grid gap-4 lg:gap-8 mx-4 md:mx-10 lg:mx-24 mt-10'>
         {featuresData.map((feature) => (
           <FeatureCard feature={feature} />
         ))}

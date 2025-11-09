@@ -18,7 +18,7 @@ const Partners = () => {
       </h3>
       <div className='mx-4 md:mx-20'>
         <Marquee
-          className='mt-10 flex items-center w-dvw!'
+          className='mt-10 flex items-center w-vw!'
           pauseOnHover={true}
           speed={50}
           gradient={true}
