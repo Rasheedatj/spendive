@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section className='bg-primary-50 py-14 md:py-20 px-8 text-center flex-1 h-full flex flex-col items-center'>
+    <section className='py-14 md:py-20 px-8 text-center flex-1 h-full flex flex-col items-center bg-linear-to-b from-primary-50 via-primary-100 to-primary-150'>
       <div className='flex items-center gap-3 px-2.5 py-1.5 bg-[#F8E9FF] rounded-4xl text-[#8E33FD]'>
         <FaCircle size={6} />
         <p className='font-medium  text-[10px] '>Procurement software</p>
